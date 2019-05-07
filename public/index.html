@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="public/style.css" type="text/css">
+    <title>Nasa-Explore-Api</title>
+  </head>
+  <body>
+    <div>
+      <span id="picContainer" class="tooltip">
+        <span class="tooltiptext"></span>
+      </span>
+    </div>
+    <div class="astroData">
+      <form class="" action="search/astro" method="post" id="form">
+        Start Date : <input id="startD" type="text" name="" value="" placeholder="YYYY-MM-DD">
+        End Date : <input id="endD" type="text" name="" value="" placeholder="YYYY-MM-DD">
+        <button id="search" type="submit">Search for Asteroids</button>
+      </form>
+    </div>
+    <span id="astroData"></span>
+    <div class="data-container"></div>
+    <script src="public/index.js" type="text/javascript"></script>
+  </body>
+</html>
